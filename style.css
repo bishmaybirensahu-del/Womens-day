@@ -661,7 +661,7 @@ body {
         font-family: "Titan One", sans-serif;
         font-size: 1rem;
         letter-spacing: 0px;
-        flex-direction: column;
+        flex-direction: row;
         perspective: 1000px;
         flex-wrap: nowrap;
     }
