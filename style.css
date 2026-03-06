@@ -130,7 +130,7 @@ body {
     flex-direction: column;
     perspective: 1000px;
 }
-.title .happy, .title .women's day{
+.title .happy, .title .birthday{
     position: relative;
     text-shadow: 4px 4px var(--color-black), 
                 -4px 4px var(--color-black), 
@@ -144,7 +144,7 @@ body {
 .title .happy{
     color: var(--color-white);
 }
-.title .happy span, .title . women's day span{
+.title .happy span, .title .birthday span{
     transform: translateY(50px);
     opacity: 0;
     visibility: hidden;
@@ -157,7 +157,7 @@ body {
         visibility: visible;
     }
 }
-.title . women's day {
+.title .birthday{
     color: var(--color-text-pink);
 }
 
@@ -315,7 +315,7 @@ body {
     transform-origin: 0 45px;
     font-family: "Sriracha", cursive;
     text-transform: uppercase;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 .fa-heart{
     color: var(--color-heart);
@@ -658,10 +658,9 @@ body {
         justify-content: center;
         font-family: "Titan One", sans-serif;
         font-size: 1.5rem;
-        letter-spacing: 0px;
+        letter-spacing: 8px;
         flex-direction: column;
         perspective: 1000px;
-        flex-wrap: nowrap;
     }
 
     #btn__letter {
