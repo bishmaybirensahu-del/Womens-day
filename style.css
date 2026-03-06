@@ -641,7 +641,7 @@ body {
     }
 
     .content {
-        width: 100%;
+        width: 50%;
         position: relative;
         display: flex;
         flex-direction: column;
