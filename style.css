@@ -658,7 +658,7 @@ body {
         justify-content: center;
         font-family: "Titan One", sans-serif;
         font-size: 1.5rem;
-        letter-spacing: 8px;
+        letter-spacing: 4px;
         flex-direction: column;
         perspective: 1000px;
     }
