@@ -57,6 +57,7 @@ body {
     position: relative;
     display: flex;
     padding-top: 1rem;
+    flex-wrap: nowrap;
 }
 .content .left, .content .right{
     position: relative;
@@ -126,9 +127,10 @@ body {
     display: flex;
     justify-content: center;
     font-family: "Titan One", sans-serif;
-    font-size: 1rem;
+    font-size: 3rem;
     flex-direction: column;
     perspective: 1000px;
+    flex-wrap: nowrap;
 }
 .title .happy, .title .birthday{
     position: relative;
