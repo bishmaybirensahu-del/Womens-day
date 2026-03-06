@@ -130,7 +130,7 @@ body {
     flex-direction: column;
     perspective: 1000px;
 }
-.title .happy, .title .women'sday{
+.title .happy, .title .women's .title .day{
     position: relative;
     text-shadow: 4px 4px var(--color-black), 
                 -4px 4px var(--color-black), 
