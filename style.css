@@ -663,6 +663,7 @@ body {
         letter-spacing: 0px;
         flex-direction: column;
         perspective: 1000px;
+        flex-wrap: nowrap;
     }
     .title .womensday{
     white-space: nowrap;
