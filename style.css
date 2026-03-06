@@ -53,7 +53,7 @@ body {
     transform: rotate(10deg) translate(20px,30px) scaleX(-1);
 }
 .content{
-    width: 30%;
+    width: 20%;
     position: relative;
     display: flex;
     padding-top: 3rem;
