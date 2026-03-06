@@ -122,7 +122,7 @@ body {
 }
 .title{
     position: relative;
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     font-family: "Titan One", sans-serif;
@@ -144,7 +144,7 @@ body {
 .title .happy{
     color: var(--color-white);
 }
-.title .happy span, .title .women'sday span{
+.title .happy span, .title .women's .title .day span{
     transform: translateY(50px);
     opacity: 0;
     visibility: hidden;
