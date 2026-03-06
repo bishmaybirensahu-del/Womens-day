@@ -56,7 +56,7 @@ body {
     width: 100%;
     position: relative;
     display: flex;
-    padding-top: 0.5rem;
+    padding-top: 3rem;
 }
 .content .left, .content .right{
     position: relative;
@@ -69,7 +69,7 @@ body {
     width: 40%;
 }
 .content .right{
-    width: 40%;
+    width: 60%;
 }
 .left .btn{
     transform: scale(0);
@@ -122,17 +122,15 @@ body {
 }
 .title{
     position: relative;
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     font-family: "Titan One", sans-serif;
-    font-size: 1rem;
+    font-size: 3rem;
     flex-direction: column;
     perspective: 1000px;
 }
-.title .happy, 
-.title .women's 
-.title .day{
+.title .happy, .title .birthday{
     position: relative;
     text-shadow: 4px 4px var(--color-black), 
                 -4px 4px var(--color-black), 
@@ -146,7 +144,7 @@ body {
 .title .happy{
     color: var(--color-white);
 }
-.title .happy span, .title .women's .title .day span{
+.title .happy span, .title .birthday span{
     transform: translateY(50px);
     opacity: 0;
     visibility: hidden;
@@ -159,7 +157,7 @@ body {
         visibility: visible;
     }
 }
-.title .women'sday{
+.title .birthday{
     color: var(--color-text-pink);
 }
 
@@ -317,7 +315,7 @@ body {
     transform-origin: 0 45px;
     font-family: "Sriracha", cursive;
     text-transform: uppercase;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 .fa-heart{
     color: var(--color-heart);
@@ -505,7 +503,7 @@ body {
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 .title__letter .fa-solid{
     margin-left: 5px;
@@ -643,31 +641,28 @@ body {
     }
 
     .content {
-        width: 50%;
+        width: 100%;
         position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 4px;
+        gap: 25px;
         align-items: center;
         padding-top: 2rem;
     }
 
     .title {
         position: relative;
-        width: 20%;
+        width: 100%;
         display: flex;
         justify-content: center;
         font-family: "Titan One", sans-serif;
-        font-size: 1rem;
-        letter-spacing: 0px;
-        flex-direction: row;
+        font-size: 1.5rem;
+        letter-spacing: 8px;
+        flex-direction: column;
         perspective: 1000px;
-        flex-wrap: nowrap;
     }
-    .title .womensday{
-    white-space: nowrap;
-    }
+
     #btn__letter {
         position: relative;
         margin-top: 17px;
