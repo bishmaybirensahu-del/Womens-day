@@ -53,10 +53,10 @@ body {
     transform: rotate(10deg) translate(20px,30px) scaleX(-1);
 }
 .content{
-    width: 10%;
+    width: 100%;
     position: relative;
     display: flex;
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 .content .left, .content .right{
     position: relative;
@@ -509,7 +509,7 @@ body {
 }
 .title__letter .fa-solid{
     margin-left: 5px;
-    font-size: 1.3rem;
+    font-size: 0.7rem;
 }
 .letter__border .letter .content__letter{
     position: relative;
