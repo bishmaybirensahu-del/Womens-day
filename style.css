@@ -508,7 +508,7 @@ body {
     font-size: 2.4rem;
 }
 .title__letter .fa-solid{
-    margin-left: 5px;
+    margin-left: 0px;
     font-size: 1rem;
 }
 .letter__border .letter .content__letter{
