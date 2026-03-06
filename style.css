@@ -129,7 +129,7 @@ body {
     font-family: "Titan One", sans-serif;
     font-size: 3rem;
     flex-direction: column;
-    perspective: 1000px;
+    perspective: 100px;
     flex-wrap: nowrap;
 }
 .title .happy, .title .birthday{
