@@ -507,7 +507,7 @@ body {
 }
 .title__letter .fa-solid{
     margin-left: 5px;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 .letter__border .letter .content__letter{
     position: relative;
@@ -658,7 +658,7 @@ body {
         justify-content: center;
         font-family: "Titan One", sans-serif;
         font-size: 1.5rem;
-        letter-spacing: 8px;
+        letter-spacing: 0px;
         flex-direction: column;
         perspective: 1000px;
     }
