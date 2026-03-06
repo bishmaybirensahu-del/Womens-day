@@ -648,14 +648,14 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 10px;
+        gap: 4px;
         align-items: center;
         padding-top: 2rem;
     }
 
     .title {
         position: relative;
-        width: 60%;
+        width: 50%;
         display: flex;
         justify-content: center;
         font-family: "Titan One", sans-serif;
